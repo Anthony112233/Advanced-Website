@@ -86,10 +86,7 @@ img{
 .column2 {
 	display:stack;
 	Width:100%;
-	height:90%;
-	border: 50px solid black;
+	height:85%;
+	border: 3px solid black;
 	background-color: white;
-}
-.img2 { 
-	float:left;
 }
