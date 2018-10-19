@@ -86,7 +86,7 @@ img{
 .column2 {
 	display:stack;
 	Width:100%;
-	height:60%;
+	height:200 px;
 	border: 3px solid black;
 	background-color: white;
 }
