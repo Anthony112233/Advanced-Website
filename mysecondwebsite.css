@@ -1,0 +1,92 @@
+/* The body has a red background with the black */
+body {
+	background-color:red;
+	color: black; 
+		}
+
+
+/*creates the background and space for the nav bar beneath the main header */
+.topnav{ 
+overflow:hidden;
+background-color: black;
+}
+/*format each individual link text so they stack horizontally */
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f5f5f5;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+}
+/* when hovering over the links the text turns grey */
+.topnav a:hover {
+	background-color:grey;
+	color:black;
+}
+/* Make a specific constant format for the top page header*/ 
+.header{
+	background-color:grey;
+		Text-align: center;
+		color: white;
+		padding:20px;
+		}
+/* a second type of header as a subtitle */
+.header2 {
+	background-color:white;
+	color:black;
+	padding:10 px;
+	border: 5px solid black;
+}
+/* every paragraph will have a bluish color with black text and a small border */
+.paragraph{ 
+	display:inlay;
+	background-color:rgb(0,100,255);
+	color:black;
+	border: 2px solid black;
+}
+/* the first word of a paragraph will have special characteristics */
+.firstword{
+	display:inlay;
+	font-style:italic;
+	font-size:40;
+}
+/* pictures will float to to the center and will have a small border*/
+img{ 
+	
+	border: 2px solid black;
+	padding:20px;
+	background-color:green;
+	text-align:center;
+}
+/* makes it so each column in the table has specific dimensions and qualities*/ 
+.column {
+	float:left;
+	Width:32%;
+	height:75%;
+	border: 3px solid black;
+	background-color: white;
+}
+/*makes it so that the text in the rows no longer float left */
+.row:after { 
+	content:"";
+	display:table;
+	clear: both;
+}
+/* creates a footer at the bottom of the page */
+.footer { 
+	text-align:center;
+	padding:20px;
+	background-color: magenta;
+	font-size:22;
+}
+
+/* makes another type of two column format that makes each cover half the screen*/
+.column2 {
+	display:stack;
+	Width:100%;
+	height:20%;
+	border: 3px solid black;
+	background-color: white;
+}
