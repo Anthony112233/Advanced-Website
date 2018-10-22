@@ -90,3 +90,10 @@ img{
 	border: 3px solid black;
 	background-color: white;
 }
+
+.img2 {
+	border: 2px solid black;
+	padding:10px;
+	background-color:green;
+	text-align:center; 
+}
