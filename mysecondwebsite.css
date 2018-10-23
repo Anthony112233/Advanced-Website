@@ -61,7 +61,15 @@ img{
 	text-align:center;
 }
 /* makes it so each column in the table has specific dimensions and qualities*/ 
-.column {
+.columnmiddle {
+	float:left;
+	Width:23%;
+	height:85%;
+	border: 3px solid black;
+	background-color: white;
+}
+.columnside { 
+	
 	float:left;
 	Width:32%;
 	height:85%;
